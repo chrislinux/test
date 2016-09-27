@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <style>
+        #container{
+            margin:auto;
+            height:1000px;
+        }
+        #header{
+            height: 120px;
+            background: orange;
+        }
+        #main{
+            background: green;
+        }
+        #lside{
+            width: 700px;
+            height: 600px;
+            float: left;
+            background: pink;
+        }
+        .four{
+            width: 310px;
+            height: 260px;
+            background: gray;
+            margin: 10px 5px 5px 12px;
+            padding: 10px;
+            float: left;
+        }
+        #rside{
+            width: 633px;
+            height: 600px;
+            background: purple;
+            float: right;
+        }
+        #footer{
+            width: 1333px;
+            height: 120px;
+            background: blue;
+            float: left;
+        }
+        #secai{
+            color: red;
+            height: 50px;
+            display: block;     /*转为块状block 内联inline*/
+            /*height: 100px;  useless*/
+        }
+        #setting{
+            /*height: 100px;*/
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header"></div>
+        <div id="main">
+            <div id="lside">
+                <div class="four">
+                    first天下<span id="secai">贰</span>天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰
+                </div>
+                <div class="four">
+                    second天下贰<strong id="setting">天下</strong>贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰
+                </div>
+                <div class="four">
+                    third天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰
+                </div>
+                <div class="four">
+                    last天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰天下贰
+                </div>
+            </div>
+            <div id="rside"></div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
